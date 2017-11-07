@@ -1,0 +1,1 @@
+"use strict";(function () {   var app = angular.module('MyApp');   app.directive('wfmDir', function () {       return {            templateUrl: 'templates/directives_tpl/wfm-dir.html',           //restrict: 'EA', // EACN           //replace: true, // TODO видно комментарии       };   });}());
