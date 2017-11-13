@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: DELL * Date: 08.11.2017 * Time: 9:42 *///var_dump($_POST);$data = json_decode(file_get_contents("php://input"));var_dump($data);
