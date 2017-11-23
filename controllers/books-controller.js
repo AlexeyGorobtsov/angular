@@ -13,6 +13,7 @@
 			error(function(res, status){
 				alert('Error!');
 			});
+		$scope.tpl = 'templates/test.html';
 
 	}]);
 
